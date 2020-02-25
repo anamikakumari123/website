@@ -1,0 +1,169 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+body
+{
+	background-color: #f1f3f4;
+	font-family: sans-serif;
+}
+
+.top-nav-bar
+{
+	height: 57px;
+    top: 0;
+    position: sticky;
+    background: #fff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid orange;
+    z-index:2;
+
+}
+.logo
+{
+	height: 55px;
+	width: 55px;
+
+}
+
+.form-control
+{
+	margin-top: 9px;
+	margin-left: 30px;
+	border: 1px solid orange !important;
+	border-top-right-radius: 0 !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-right-radius: 0 !important;
+	border-bottom-left-radius: 20px !important;
+	box-shadow: none;
+	width: 300px;
+	text-shadow: 0 0 3px black, 0 0 5px orange;
+
+}
+
+.input-group-text
+{
+	background: orange !important;
+    border: 5px solid orange !important;
+    margin: 8.5px 10px 0px 0 !important;
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 0px !important;
+	border-bottom-right-radius: 20px !important;
+	border-bottom-left-radius: 0px !important;
+	cursor: pointer;
+}
+
+.search-box
+{
+	float: left;
+	display: inline-flex;
+	height: 80%;
+	width: 60%;
+
+}
+.fa-search
+{
+	color: #fff;
+	margin-bottom: 60%;
+}
+
+.menu-bar
+{
+	width: 40%;
+	height: 57px;
+	float: right;
+}
+
+.menu-bar ul
+{
+	display: inline-flex;
+	float: right;
+	margin-top: 25px;
+	margin-right: 0.5px;
+	font-size: 25px;
+
+	text-decoration: none;
+}
+
+.menu-bar ul li
+{
+	
+	border-right: 4px solid #fff;
+	list-style-type: none;
+	padding: none;
+	text-align: center;
+	background-color: orange;
+	cursor: pointer;
+	
+	
+}
+
+.menu-bar ul li a
+{
+	font-size: 20px;
+	font-weight: none;
+	color : white;
+	text-decoration: none;
+
+}
+#list
+{
+	text-decoration: none;
+}
+
+.webname
+{
+	 font-family: "Ravie";
+     margin-top: 10px;
+     font-size: 20px;
+     
+   
+}
+
+h3 {
+	color: orange;
+  text-shadow: 0 0 3px black, 0 0 5px orange;
+}
+
+a {
+  color: orange;
+  text-shadow: 0 0 3px black, 0 0 5px orange;
+  
+}
+
+
+@media only screen and (max-width: 980px)
+{
+	.menu-bar
+	{ height: 90px;
+		border-bottom: 0;
+
+	}
+
+	.search-box
+	{
+		width: 100%;
+
+	}
+
+
+	.menu-bar
+	{width: 100%;
+	}
+.menu-bar ul
+{
+	margin: 10px 0;
+	width: 100%;
+}
+.menu-bar ul li 
+{
+	height: 57px;
+	width: 100%;
+}
+
+
+
+}
+
